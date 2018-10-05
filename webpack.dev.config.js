@@ -4,9 +4,9 @@ module.exports =
 {
   entry:
   {
-    main: path.resolve(__dirname, './src/index.js'),
+    main: ['babel-polyfill', path.resolve(__dirname, './src/index.js')],
 /*    default: path.resolve(__dirname, './src/default.js'),*/
-    vendor: ['react', 'redux', 'react-dom', 'react-redux']
+    vendor: ['react', 'react-dom']
   },
   output:
   {

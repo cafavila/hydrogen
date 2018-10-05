@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body
+{
+  font-family: 'Raleway', Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input
+{
+  max-width: 500px;
+}
+
+.gray
+{
+  color: #828282;
+}
+
+.orange
+{
+  background-color: #ff6600;
+}
+
+.background-gray
+{
+  background-color: rgb(246, 246, 239);
+}
+
+.fill
+{
+  font-size: 11px;
+}
+
+.w85
+{
+  width: 85%;
+}
+
+.button
+{
+  font-family: monospace;
+  font-size: 10pt;
+  color: black;
+  background-color: buttonface;
+  text-align: center;
+  padding: 2px 6px 3px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  cursor: pointer;
+  max-width: 250px;
+}
+/* Estilo de Header */
+.header
+{
+  background-color: #27191C;
+  height: 80px;
+  color: #E0E4CE;
+  display: grid;
+  grid-template-columns: 40px 150px 450px repeat(2, 1fr);
+}
+
+/* Estilo de Contenido */
+.container
+{
+  height: 450px;
+  padding-left: 10px;
+}
+
+/* Estilo de Footer */
+.footer
+{
+  background-color: #27191C;
+  color: #E0E4CE;
+  height: 120px;
+}
